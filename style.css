@@ -1,0 +1,34 @@
+.table-zebra-striping {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-zebra-striping th {
+    background: #8CAAD4;
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.table-zebra-striping td {
+    border-bottom: 1px solid #ddd;
+    padding: 1em;
+}
+
+/* EVEN */
+
+.table-zebra-striping tr:nth-child(even) {
+    background: #F5F5F5;
+}
+
+/* ODD */
+
+.table-zebra-striping tr:nth-child(odd) {
+    background: #D5DDE8;
+}
+
+.kosong {
+    background: red;
+    color:white;
+}
